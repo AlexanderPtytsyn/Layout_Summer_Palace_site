@@ -1,0 +1,31 @@
+/*обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*all site start*/
+main {
+	width: 1920px;
+	height: 5228px;
+	background-color: #ffffff;
+	margin: auto;
+	border: 1px solid blue;
+}
+/*all site end*/
+
+/*header start*/
+header {
+	position: absolute;
+	width: 1800px;
+	height: 865.55px;
+	margin-left: 60px;
+	top: 60px;
+	border: 1px solid blue;
+}
+
+.logo_header {
+	margin-left: 100px;
+}
+/*header end*/
