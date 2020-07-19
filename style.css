@@ -28,4 +28,115 @@ header {
 .logo_header {
 	margin-left: 100px;
 }
+
+.header_nav {
+	position: absolute;
+	display: inline-block;
+	margin-left: 257px;
+	margin-top: 35px;
+	
+}
+
+.header_list_word, .header_list_word1, .header_list_word2 {
+	display: inline;
+	
+}
+
+.header_list_word {
+	margin-right: 30px;
+}
+
+.header_list_word1 {
+	margin-right: 21px;
+}
+
+.header_list_word2 {
+	margin-right: 30px;
+}
+
+.header_list_word2_link {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #D1A954;
+	text-decoration: none;
+}
+
+.header_list_word_link {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+}
+
+.header_list_button {
+	padding: 9px 9px 6px 9px;
+}
+
+.header_list_word_link {
+	text-decoration: none;
+}
+
+.header_list_button {
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 1px solid rgba(209, 169, 84, 0.9);
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #D1A954;
+	background: #fff;
+}
+
+.header_list_button:hover, .header_list_button:active, .header_list_button:focus {
+	background: #E6802D;
+	color: #fff;
+	transition: .2s;
+	box-shadow: 4px 4px 8px #000;
+}
+
+.header_photo {
+	width: 1800px;
+	height: 650px;
+	position: absolute;
+	margin-top: 60px;
+	border: 1px solid black;
+}
+
+.header_photo1 {
+	position: absolute;
+	width: 580px;
+	height: 650px;
+	border: 1px solid black;
+	float: left;
+}
+
+.header_photo2 {
+	position: absolute;
+	width: 580px;
+	height: 650px;
+	border: 1px solid black;
+	margin-left: 610px;
+}
+
+.header_photo3 {
+	width: 580px;
+	height: 650px;
+	border: 1px solid black;
+	float: right;
+}
+
 /*header end*/
